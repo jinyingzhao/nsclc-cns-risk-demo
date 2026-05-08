@@ -1,0 +1,5 @@
+model,target,train_rows,validation_rows,event_rate_train,event_rate_validation,AUC,Average_precision,Brier_score,note
+A,diagnosis_brain_metastasis,440285,126901,0.1132,0.1083,0.7900,0.3078,0.0852,HistGradientBoosting temporal validation
+C1,all_cause_death_6m_after_brain_metastasis,59188,14259,0.5993,0.5812,0.6861,0.7443,0.2183,HistGradientBoosting temporal validation
+C2,all_cause_death_12m_after_brain_metastasis,59139,13222,0.7507,0.7456,0.7047,0.8691,0.1714,HistGradientBoosting temporal validation
+C3,cancer_specific_death_12m_after_brain_metastasis,55830,12224,0.7359,0.7248,0.7052,0.8568,0.1792,HistGradientBoosting temporal validation
